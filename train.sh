@@ -1,0 +1,1 @@
+python ./trainSpeakerNet.py --model ResNetSE34 --encoder SAP --trainfunc amsoftmax --optimizer adam --save_path data/exp1 --batch_size 200 --max_frames 200 --scale 30 --margin 0.3 --train_list train_list.txt --test_list veri_test.txt --train_path /dataSSD/voxceleb2 --test_path /dataSSD/voxceleb1
